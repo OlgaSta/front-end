@@ -1,0 +1,100 @@
+*{
+    font-family: 'Poiret One', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* max-width: 1000px; */
+    
+}
+header{
+    position: relative;
+    min-height: 100px;
+    background-color: azure;
+    border-top: 1px solid rgb(49, 99, 206);
+    border-bottom: 1px solid rgb(49, 99, 206);
+
+}
+h1{
+color: rgb(49, 99, 206);
+padding: 30px 30px;
+display: inline;
+}
+.home{
+    color: black;
+    text-align: center;
+    display:block;
+    padding: 0;
+    padding-bottom: 10px;
+}
+nav{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 15px;
+    list-style-type: none;
+
+}
+nav li{
+    display: inline;
+}
+nav li a{
+    color: rgb(49, 99, 206);
+    text-decoration: none;
+    background-color: azure;
+    padding: 6px 10px;
+    font-size: 1.1em;
+    border: 1px solid rgb(49, 99, 206);
+    border-radius: 10px;
+}
+nav li a:hover{
+    background-color: rgb(217, 255, 255);
+}
+.active{
+    background-color:  rgb(217, 255, 255);
+}
+img{
+    padding: 40px 20px 10px 0;
+    float: left;
+}
+section{
+   
+    padding: 20px;
+    background-color: rgb(252, 252, 215);
+    min-height: calc(100vh - 200px);
+    color: black;
+    overflow: auto;
+}
+.container{
+
+    padding: 10px 100px;
+    min-height: 100px;
+    max-width: 1300px;
+    
+    
+    
+}
+.about{
+
+        padding: 100px 100px;
+        min-height: 100px;
+        max-width: 1300px;
+       
+    
+    }
+    .img1{
+        float: right;
+   
+    }
+footer{
+    min-height: 100px;
+    background-color:azure;
+    border-top: 1px solid rgb(49, 99, 206);
+    border-bottom: 1px solid rgb(49, 99, 206);
+}
+address{
+    color: rgb(49, 99, 206);
+    padding: 20px 30px;
+    float: left;
+}

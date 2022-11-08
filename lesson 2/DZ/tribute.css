@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(235, 230, 223);
+    /* height: 1500px; */
+    /* background-image: url('img/68a2d819cb5885db0920592af70ea85962f8e1c3-393x600.webp'); */
+    background-repeat: repeat;
+    background-position: top right ;
+    background-attachment: fixed;
+    margin: 50px;
+    
+    /* safixit' kartinku */
+}
+.title{
+    height: 70px; 
+    font-size: 60px; 
+    color: rgb(236, 231, 231); 
+    background-color: rgb(139, 29, 29)
+}
+div{
+    /* width: 300px; */
+    /* height: 300px; */
+    /* background-color: salmon; */
+    /* border: 10px solid black; */
+    /* padding: 10px; */
+    /* margin: 10px; */
+
+
+}
+table, td, th {
+    border: 1px solid rgb(105, 4, 4);
+    border-collapse: collapse;
+    /* border-spacing: 10px; */
+}
+td, th {
+    padding: 5px 10px;
+}

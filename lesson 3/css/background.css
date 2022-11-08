@@ -1,0 +1,29 @@
+body{
+    height: 1500px;
+    background-image: url('http://picsum.photos/300');
+    background-repeat: no-repeat;
+    background-position: top right ;
+    background-attachment: fixed;
+    /* safixit' kartinku */
+}
+body{
+    background: red url('http://picsum.photos/400') repeat-x top;
+}
+ /* background-size:contain ; */
+    /* razmer ekrana soderzhit element */
+   /* body{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+   }
+div{
+   width: 100vw;
+   height: 100vh;
+   background-color: aquamarine;
+} */
+/* 100% wiriny ekrana vw i 100% vysoty ekrana vh */
+/* section{
+    width: 50%;
+    height: 50%;
+    background-color: blueviolet;
+} */

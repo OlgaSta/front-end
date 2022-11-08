@@ -1,0 +1,23 @@
+html, body{
+    background-color: grey;
+}
+
+.container{
+    background-color: coral;
+    border: 10px solid orangered;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container > div.small{
+    flex: 1 1 300px;
+}
+.container > div.big{
+    flex: 1 1 600px;
+}
+
+.container > div > img{
+    width: 100%;
+    height: 100%;
+}

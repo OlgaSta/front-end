@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* h1{ */
+    /* width: 30%;
+    display: inline-block; */
+/* display pozvoljaet menjat- svojstva elementa(heading blo4nyj element, sdelali stro4nym) */
+    /* display: none; */
+    /* visibility: hidden; */
+/* }
+h2{ */
+    /* visibility: hidden; */
+/* } */
+body{
+    height: 2000px;
+    
+}
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: -700px;
+    height: 800px;
+    width: 100%;
+    background-color: aqua;
+    
+}
+section{
+    position: static;
+    top: 0;
+    background-color: red;
+    height: 500px;
+    width: 50%;
+    margin-left: auto;
+}
+div{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 100px;
+    height: 200px;
+    width: 50%;
+    bottom: 0;
+   
+    border:  1px solid black;
+}

@@ -1,0 +1,16 @@
+@font-face{
+    font-family: 'my Font';
+    src: url('../fonts/Rye-Regular.ttf');
+}
+p{
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic; */
+    font-weight: 200;
+    font-variant: small-caps;
+    font-size: larger;
+    font-family: 'my Font';
+
+}
+.i{
+    
+}

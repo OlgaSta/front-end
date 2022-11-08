@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* *- svojstva dlq vsego dokumenta */
+}
+/* */
+/* h1{
+    color: red;
+
+}
+h1.title{
+    
+    color: blue;
+} */
+/* h1, p, a{
+    color: red;
+} */
+ /* psevdoklass */
+    /* ssylka kotoruju eshe ne poseshali */
+/* a:link{
+   
+    color: yellow;
+}
+a.visited:{
+        color: red;
+    }
+a:hover{
+color: green;
+}
+a:active{
+    color: blue;
+} */
+/* a{
+    color: red;
+}
+a:hover{
+    color: pink;
+} */
+/* div p{ 
+    
+    color: red;
+} */
+/* vse paragrafy vnutri div Nearest children*/
+/* div > p{
+    background-color: deeppink;
+} */
+/* tolko te paragrafy dljq kotoryx blizhajshij roditel p NEAREST CHILDREn*/
+/* div+p{
+    font-size: 36px;
+} */
+/* blizhajshij rodstvennik div, sledujushij POSLE NEAREST NEXT SIBLINGS*/
+/* div~p{
+    text-decoration: underline;
+} */
+/* ALL SIBLINGS */
+div p{
+    display: none;
+    background-color: aquamarine;
+}
+div:hover section p{
+    color: red;
+    display: block;
+}

@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    position: relative;
+    min-height: 100px;
+    background-color: dodgerblue;
+    border-bottom: 3px solid darkblue;
+
+}
+
+.title{
+    color: white;
+    padding: 30px 30px;
+
+}
+
+nav{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 8px;
+    list-style-type: none;
+
+}
+
+nav li{
+    display: inline;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    background-color: dodgerblue;
+    padding: 8px 15px;
+    font-size: 1.3em;
+    border-radius: 15px 15px 0 0;
+
+
+
+}
+nav li a:hover{
+    background-color: rgb(81, 161, 242);
+}
+.active{
+    background-color: rgb(81, 161, 242);
+}
+section{
+    background-color: black;
+    min-height: calc(100vh - 200px);
+    color: white;
+}
+footer{
+    min-height: 100px;
+    background-color: dodgerblue;
+}
+
+.container{
+    /* overflow: auto; */
+    /* padding: 15px; */
+    min-height: 100px;
+    max-width: 1000px;
+    
+}

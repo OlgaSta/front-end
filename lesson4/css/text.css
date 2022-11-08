@@ -1,0 +1,43 @@
+.container{
+    color: dodgerblue; 
+    text-align: justify;
+    /* raspredelit' text ravnomerno po stranice */
+    text-align-last: right;
+    /* poslednaja strochka paragrafa uhodit napravo */
+    /* direction: rtl; */
+    /* napravlenie texta */
+   
+}
+span{
+    vertical-align: super;
+}
+p{
+    /* unicode-bidi: bidi-override; */
+    /* text naobotor */
+    /* text-decoration-line: line-through overline underline;
+    text-decoration-color: blueviolet;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 5px;
+    text-decoration: underline red double 3px; */
+    /* text-transform: capitalize; */
+    text-indent: 40px;
+    /* otstup paragrafa */
+    letter-spacing: -1px;
+    /* promezhutok mezhdu bukvami */
+    line-height: 20px;
+    /* vqsota stro4ki s u4etom shrifta */
+    word-spacing: -1px;
+    white-space: nowrap;
+
+
+}   
+h1{
+    text-align: center;
+  }
+a{
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    text-shadow: 0px 0px 5px deeppink, -2px -2px  2px blue, 2px 2px  orange;
+}
